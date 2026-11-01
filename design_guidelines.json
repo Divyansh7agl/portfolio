@@ -1,0 +1,209 @@
+{
+  "project_title": "DIVYANSH.OS — Premium Interactive Developer Portfolio & OS",
+  "developer_profile": {
+    "name": "Divyansh Agarwal",
+    "role": "Full Stack Developer | AI Builder | Problem Solver",
+    "education": "B.E. in Information Technology, MBM University Jodhpur",
+    "monogram": "DA",
+    "avatar_style": "Stylized glowing monogram avatar with cybernetic electric cyan ring"
+  },
+  "theme_and_colors": {
+    "dark_mode": {
+      "bg_primary": "#080B12",
+      "bg_secondary": "#101521",
+      "bg_card": "#141B29",
+      "accent_primary": "#00F0FF",
+      "accent_primary_hover": "#33F3FF",
+      "accent_secondary": "#8B5CF6",
+      "text_primary": "#F8FAFC",
+      "text_secondary": "#94A3B8",
+      "border": "rgba(255, 255, 255, 0.08)",
+      "glass_bg": "rgba(20, 27, 41, 0.75)",
+      "glass_border": "rgba(0, 240, 255, 0.15)",
+      "glow_primary": "rgba(0, 240, 255, 0.25)"
+    },
+    "recruiter_light_mode": {
+      "bg_primary": "#F8FAFC",
+      "bg_secondary": "#F1F5F9",
+      "bg_card": "#FFFFFF",
+      "accent_primary": "#0284C7",
+      "accent_secondary": "#7C3AED",
+      "text_primary": "#0F172A",
+      "text_secondary": "#475569",
+      "border": "rgba(15, 23, 42, 0.1)",
+      "glass_bg": "rgba(255, 255, 255, 0.85)",
+      "glass_border": "rgba(2, 132, 199, 0.2)"
+    }
+  },
+  "typography": {
+    "font_family_display": "'Plus Jakarta Sans', 'Outfit', system-ui, sans-serif",
+    "font_family_mono": "'JetBrains Mono', 'Fira Code', monospace",
+    "font_family_body": "'Inter', -apple-system, sans-serif",
+    "h1_hero": "text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight",
+    "h2_section": "text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight",
+    "h3_card": "text-lg sm:text-xl font-medium",
+    "body_text": "text-sm sm:text-base leading-relaxed text-slate-300",
+    "mono_code": "font-mono text-xs sm:text-sm tracking-wide"
+  },
+  "app_structure_and_routes": {
+    "desktop_os_mode": {
+      "route": "/",
+      "top_bar": {
+        "left": "Logo [DIVYANSH.OS v2.4] + System Status Indicator [🟢 ONLINE / 99.9% UPTIME]",
+        "center": "Active Window Title / Quick Search Command Palette trigger [⌘K]",
+        "right": "Date & Live Clock + Battery/Network Sim + [Recruiter Mode] Toggle Button"
+      },
+      "desktop_space": {
+        "onboarding_banner": "Interactive Desktop: Drag, minimize, maximize windows or click Dock icons to open apps.",
+        "desktop_grid_icons": [
+          { "id": "about", "label": "About Me.app", "icon": "User", "accent": "cyan" },
+          { "id": "projects", "label": "Projects.app", "icon": "FolderGit2", "accent": "cyan" },
+          { "id": "skills", "label": "Skills.app", "icon": "Cpu", "accent": "violet" },
+          { "id": "achievements", "label": "Achievements.app", "icon": "Trophy", "accent": "yellow" },
+          { "id": "lab", "label": "Engineering Lab.app", "icon": "FlaskConical", "accent": "cyan" },
+          { "id": "terminal", "label": "Terminal.app", "icon": "Terminal", "accent": "green" },
+          { "id": "resume", "label": "Resume.app", "icon": "FileText", "accent": "violet" },
+          { "id": "contact", "label": "Contact.app", "icon": "Mail", "accent": "cyan" }
+        ],
+        "dock": "Floating glassmorphic bottom dock containing all app icons with active indicators and bounce tooltips on hover."
+      }
+    },
+    "recruiter_mode": {
+      "route": "/recruiter",
+      "description": "Executive portfolio view for recruiters who prefer traditional linear scroll without desktop windows.",
+      "features": [
+        "Light/Dark Theme Switcher with instant smooth transition",
+        "Hero Section with Monogram Avatar, Elevator Pitch, Quick CTAs (Hire Me, Download Resume, Terminal View)",
+        "Live GitHub & LeetCode Command Center Stats Widget",
+        "Filterable Projects Case Studies Grid with Tech Badges & Live Links",
+        "Experience & Education Timeline (MBM University Jodhpur)",
+        "Engineering Lab Highlights Carousel",
+        "Direct Contact Form powered by Resend API integration and local DB backup"
+      ]
+    },
+    "mobile_experience": {
+      "description": "Adaptive responsive layout with quick tab navigation, app grid cards, and collapsible mobile terminal bar."
+    }
+  },
+  "window_applications": [
+    {
+      "app_id": "about",
+      "title": "About Divyansh Agarwal — Full Stack & AI Developer",
+      "components": [
+        "Stylized Monogram Avatar with animated glow ring",
+        "Bio & Mission statement highlighting B.E. IT at MBM University Jodhpur",
+        "Core Philosophy: Systems thinking, rapid AI prototyping, production-grade clean code",
+        "Interactive Timeline (Education, Milestones, Open Source Contributions)",
+        "Quick Stat Pills: 3+ Years Coding, 15+ Projects Built, 500+ LeetCode Solved"
+      ]
+    },
+    {
+      "app_id": "projects",
+      "title": "Project Explorer & Case Studies",
+      "components": [
+        "Filter bar by category: All, Full Stack, AI/LLM, System Tools, Frontend Showcase",
+        "Interactive Project Cards with live preview thumbnails, repo links, and architecture breakdown modal",
+        "Key Projects Showcase: AI Workflow Automation Engine, Cloud Code Editor, Multi-Agent RAG System, High-Scale Analytics Dashboard"
+      ]
+    },
+    {
+      "app_id": "skills",
+      "title": "Developer Capabilities & Stack Matrix",
+      "components": [
+        "Languages: TypeScript, JavaScript, Python, C++, SQL",
+        "Frontend: React.js, Next.js, Tailwind CSS, Framer Motion, Redux/Zustand, Shadcn UI",
+        "Backend & DB: Node.js, Express, FastAPI, PostgreSQL, MongoDB, Redis, Prisma, Docker",
+        "AI & Tools: OpenAI API, LangChain, Vector DBs (Chroma/Pinecone), Git, Vercel, Linux"
+      ]
+    },
+    {
+      "app_id": "terminal",
+      "title": "DIVYANSH.OS Interactive CLI Terminal",
+      "commands": [
+        "help - List all available commands",
+        "whoami - Print developer identity & bio",
+        "skills - Display formatted skill breakdown",
+        "projects - List key projects with status",
+        "stats - Fetch live GitHub & LeetCode stats overview",
+        "contact - Launch contact form or show quick links",
+        "sudo hire divyansh - Execute special interactive Easter egg hire sequence with confetti celebration!",
+        "clear - Clear terminal screen"
+      ]
+    },
+    {
+      "app_id": "lab",
+      "title": "Engineering Lab — AI Experiments & Research Notes",
+      "components": [
+        "Interactive Playground Cards for experimental AI concepts",
+        "Micro-Demos (Prompt Sandbox preview, Vector Embedding Visualizer, Algorithm Benchmark Tool)",
+        "Technical Articles & Deep Dives"
+      ]
+    },
+    {
+      "app_id": "achievements",
+      "title": "Achievements, Certifications & Competitions",
+      "components": [
+        "MBM University Academic Excellence & Club Leadership",
+        "Hackathon Wins & Competitive Coding Milestones",
+        "Verified Certifications with badge previews"
+      ]
+    },
+    {
+      "app_id": "resume",
+      "title": "Divyansh Agarwal — Resume & Curriculum Vitae",
+      "components": [
+        "Embedded high-fidelity styled Resume Viewer",
+        "One-click Download PDF action button with toast confirmation",
+        "Printable friendly view toggle"
+      ]
+    },
+    {
+      "app_id": "contact",
+      "title": "Get In Touch — Contact & Collaboration",
+      "components": [
+        "Interactive Contact Form (Name, Email, Subject, Message)",
+        "Resend API integration with success state + local state persistence",
+        "Direct Email & Social Links (GitHub, LinkedIn, Twitter/X)"
+      ]
+    }
+  ],
+  "image_urls": [
+    {
+      "category": "workstation_hero",
+      "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzJ8MHwxfHNlYXJjaHwxfHxmdXR1cmlzdGljJTIwZGFyayUyMGRldmVsb3BlciUyMHdvcmtzdGF0aW9uJTIwY29kaW5nJTIwZGFzaGJvYXJkfGVufDB8fHx8MTc5MzUwNzI0N3ww&ixlib=rb-4.1.0&q=85",
+      "description": "Dark developer analytics dashboard preview image"
+    },
+    {
+      "category": "code_workspace",
+      "url": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzJ8MHwxfHNlYXJjaHwzfHxmdXR1cmlzdGljJTIwZGFyayUyMGRldmVsb3BlciUyMHdvcmtzdGF0aW9uJTIwY29kaW5nJTIwZGFzaGJvYXJkfGVufDB8fHx8MTc5MzUwNzI0N3ww&ixlib=rb-4.1.0&q=85",
+      "description": "High contrast colorful code editor monitor mockup"
+    },
+    {
+      "category": "lab_setup",
+      "url": "https://images.pexels.com/photos/33349204/pexels-photo-33349204.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Sleek dark workstation with backlit mechanical keyboard"
+    }
+  ],
+  "key_interactive_effects": {
+    "framer_motion": [
+      "Window Drag & Re-order z-index bring-to-front",
+      "Window Minimize/Maximize scale animations",
+      "Dock icon magnify/bounce effect on cursor hover",
+      "Recruiter mode light/dark theme color transitions",
+      "Terminal typewriter output effect and smooth scrolling",
+      "Confetti explosion trigger on 'sudo hire divyansh'"
+    ],
+    "sound_and_haptics": "Subtle visual feedback animations on click (no heavy audio to keep it crisp)."
+  },
+  "testing_requirements": {
+    "data_testid": "ALL interactive elements (window buttons, dock items, terminal input, recruiter toggle, form inputs, submit button, navigation links) MUST include explicit data-testid attributes formatted in kebab-case."
+  },
+  "instructions_to_main_agent": [
+    "Build a cohesive React single page application with desktop OS view at '/' and recruiter traditional portfolio view at '/recruiter'.",
+    "Use Framer Motion for window dragging, minimize, maximize, close, and dock interactions.",
+    "Implement full terminal state handling supporting 'sudo hire divyansh' Easter egg.",
+    "Ensure dark mode colors `#080B12`, `#101521`, `#141B29`, `#00F0FF` (cyan) and `#8B5CF6` (violet) are strictly applied in default OS view.",
+    "Provide a smooth Recruiter Mode toggle button in the top status bar so recruiters can instantly switch to a clean traditional portfolio with Light/Dark theme toggle.",
+    "Ensure all buttons and inputs have proper `data-testid` attributes."
+  ]
+}
